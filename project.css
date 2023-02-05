@@ -1,0 +1,484 @@
+.mb-0{
+  text-align: center;
+  color: darkblue;
+  font-size: 200%;
+  font-weight: bolder;
+}
+ .navbar{
+  position: relative;
+   
+   font-weight: bold;
+  margin-top: 0%;
+  display: inline;
+  background-image: url('navB.jpg'); background-repeat: no-repeat;
+ background-size: cover;
+ 
+
+}
+
+/* ***** */
+#f1{
+  height: 300PX;
+}
+ #logo{
+  margin-left: 3%;
+  position: relative;
+  padding-bottom: 0%;
+  
+ }
+
+#home1{
+    background-image: url('homemod.JPG');
+    width: auto;
+    background-size: cover;
+     height: 900px;
+     background-repeat: no-repeat;
+     
+     
+     
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.navbar-nav .nav-item .nav-link{
+  color:black;
+ 
+   
+}
+
+
+.nav-item .nav-link:hover{
+  background-color: whitesmoke;
+ 
+  font-weight: bold;
+  text-align: center;
+
+ 
+
+}
+
+
+body{
+   
+    justify-content: center;
+    background-color: white;
+   
+}
+.d-md-block{
+position: absolute;
+font-family: Georgia ;
+
+
+}
+.d-md-block h1{
+position: absolute;
+font-size: 400%;
+
+}
+
+.d-md-block h1:nth-child(1){
+color:rgb(214, 226, 241);
+-webkit-text-stroke: 10%  black;
+}
+.d-md-block h1:nth-child(2){
+color:rgb(8, 144, 185);
+animation: animate 2s ease-in-out infinite;
+}
+@keyframes animate{
+0%,100%{
+clip-path: polygon(0% 34%, 16% 35%, 35% 43%, 46% 53%, 64% 56%, 77% 57%, 92% 55%, 99% 52%, 100% 100%, 0% 100%);
+}
+50%{
+clip-path: polygon(0% 64%, 16% 69%, 33% 69%, 48% 64%, 59% 55%, 72% 46%, 87% 37%, 100% 34%, 100% 100%, 0% 100%);
+}
+
+
+
+
+
+
+}
+
+/* WHY LEVEL UP */
+
+.jumbotron {
+  
+  color: black;
+  margin: 0px;
+  margin-top: 0%;
+  height: 70%;
+  background-image: none;
+
+}
+.jumbotron .navbar{
+  background-image: none;
+}
+
+.jumbotron h2{
+  color: darkblue;
+  float: left;
+  display: inline;
+
+}
+.jumbotron  .nav-link  {
+
+color: black;
+transition: all 1s;
+}
+
+.jumbotron .nav-link:hover {
+  transform: translatey(-40%);
+ }
+ .tab-content .col-sm-6{
+  font-size: 150%;
+  display: inline;
+  }
+  
+ .display-4{
+  font-weight: bolder;
+ }
+/* PARTNERS -------------------*/
+ marquee{
+  background-color: rgb(213, 213, 235);
+  border-radius:15%;
+ 
+  padding: 3% 3% 3% 3% ;
+  width: 70%;
+  height: 20%;
+  margin-left: 15%;
+  }
+  marquee img{
+    border-radius: 5%;
+    width: 10%;
+    
+  }
+
+  /* OUR PRODUCTS */
+  .card-deck .card{
+  height: 20%;
+  border:none;
+  width: 70%;
+
+  }
+  .card-deck .card :hover{
+    justify-content: center;
+    transform: translatey(-15%);
+    transition: 0.5s;
+    }
+
+
+
+  /* footer */
+
+
+
+
+
+/* CNTACT US */
+#ContactUs{
+  background-image: url('./contactusB.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  border-radius: 3%;
+ 
+  
+}
+
+
+#ContactUs .display-2{
+color: rgb(13, 13, 193);
+  font-weight:bolder;
+  
+}
+
+
+
+ .box{
+  width: 350px; 
+  height: 350px;
+  float: left;
+  margin-left: 8%;
+  margin-top: 10%;
+  overflow: hidden;
+  border-radius: 10px;
+}
+ .box .icon1{
+  padding-top: 20%;
+
+  background-color:rgb(13, 137, 13);
+
+  transition: 0.5s;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  font-size: 100px;
+}
+ .box:hover .icon1{
+background-color: rgb(13, 137, 13);
+  position:relative;
+top: 30px;
+left: 150px;
+width: 100px;
+height: 100px;
+border-radius: 50%;
+font-size: 40px;
+padding: 30px;
+}
+ .box .icon2{
+  padding-top: 20%;
+  
+  background-color:orange;
+
+  transition: 0.5s;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  font-size: 100px;
+}
+ .box:hover .icon2{
+  background-color: orange;
+  position:relative;
+top: 30px;
+left: 150px;
+width: 100px;
+height: 100px;
+border-radius: 50%;
+font-size: 40px;
+padding: 30px;
+}
+.box .icon3{
+  padding-top: 20%;
+  
+  background-color:rgba(13, 13, 197, 0.865);
+
+  transition: 0.5s;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  font-size: 100px;
+}
+ .box:hover .icon3{
+background-color: rgba(13, 13, 197, 0.865);
+  position:relative;
+top: 30px;
+left: 150px;
+width: 100px;
+height: 100px;
+border-radius: 50%;
+font-size: 40px;
+padding: 30px;
+}
+
+ .box{
+    text-align: center;
+    font-size: 28px;
+    
+}
+
+
+
+/* ABOUT PAGE */
+.carousel{
+  background-image: url('crslB.jpg');
+}
+.carousel-caption{
+  position:relative;
+  margin-right:50%;
+  margin-bottom: 17%;
+  margin-left: 0%;
+  font-size: 250%;
+  color:rgb(0, 221, 255);
+  float: right;
+}
+.carousel-caption p {
+  color: white;
+  font-weight: 500;
+  font-family: Constantia;
+} 
+.carousel-caption h3 {
+  color: rgb(242, 160, 7);
+  font-weight: bold;
+  font-size: 100%;
+  font-family: Bahnschrift;
+
+}
+
+
+.float{
+  /* align-items: center; */
+  
+  display: flex;
+  float: right;
+  position: fixed;
+}
+
+/* ABOUT LEVELUP */
+
+.container h1{
+  color: navy;
+font-size: 250%;
+font-weight: bold;
+text-align: center;
+
+
+
+}
+.container .row .lead {
+  color: blue;
+font-size: 150%;
+font-weight:normal;
+}
+
+.row img{
+  border: 5px solid navy;
+  border-radius: 5%;
+} 
+/* benifits */
+ .card{
+  text-align: center;
+  width: 100%;
+  background-color: dodgerblue;
+  padding: 5%;
+}
+ .card .box{
+  border-radius: 40%;
+  border: 5px solid rgb(0, 195, 255);
+  background-color:darkblue;
+  margin: 3%;
+  width: 25%;
+  height: 50%;
+ 
+
+
+}
+
+ .card .icon{
+  font-size: 150%;
+  color:  rgb(0, 195, 255);
+}
+
+ .card  .card-title {
+  text-align: center;
+  color: darkblue;
+  font-size: 200%;
+  font-weight: bolder;
+
+  
+}
+ .card  .card-text{
+font-size: 150%;
+}
+
+.media {
+
+margin-left: 10%;
+}
+
+.card{
+
+  width: 100%;
+  height: 60%;
+  
+}
+
+
+
+.dropdown-item{
+  border-radius:10px;
+  border: 1px solid ;
+  font-weight:bolder;
+  font-size: 130%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nav-item .dropdown-item{
+  /* border: 1% solid rgb(44, 44, 67) ; */
+  border-radius: 3px;
+  transition: 1s;
+ 
+}
+
+.nav-item .dropdown-item:hover{
+  background-color: skyblue;
+  margin-left: 15%;
+}
+/* FDS */
+#FSD .container-fluid  {
+  background-image: url('./FDSBB2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:600PX;
+  margin-top: 0PX;
+
+}
+/* SKILLS WE PROVIDE */
+.container-fluid  .display-2{
+  color: whitesmoke;
+  font-size: 300%;
+  font-weight: bolder;
+    
+}
+.container-fluid li{
+  color: whitesmoke;
+  font-size: 200%;
+}
+
+
+
+.container {
+  text-align: center;
+  
+  width: 100%;
+  margin-top: 2%;
+  justify-content: center;
+  
+  
+}
+
+.container .row .col-2 i{
+font-size: 300%;
+border-radius: 30%;
+
+color: white;
+background-color: rgb(89, 89, 241);
+width: 80%;
+height: 90%;
+padding: 6%;
+
+
+
+}
+
+.row .col8 h5{
+  text-align: left;
+  font-size: 150%;
+  color: darkblue;
+}
+
+.jumbotron .col-4 {
+  font-size: 150%;
+ 
+}
+section {
+  font-size: 150%;
+  text-align: start;
+  
+}
+
+#AwsDevops .container-fluid{
+  background-image: url('aws.jpg');
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+}
+
+.container .col-4{
+font-size: 300%;
+color: rgb(9, 9, 172);
+}
+
+
